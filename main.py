@@ -2,7 +2,7 @@ from turtle import Turtle, Screen
 import random
 
 tom = Turtle()
-Screen().bgcolor("black")
+Screen().bgcolor("white")
 tom.color(random.random(), random.random(), random.random())
 direction = [0, 90, 180, 270]
 colors = ["red", "green", "blue", "yellow", "orange", "purple", "pink", "white", "gray", "brown", "cyan", "magenta",
